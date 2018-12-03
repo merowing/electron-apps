@@ -9,6 +9,9 @@
   <body>
     <header class="titlebar">
         <div id="drag-region">
+            <div id="window-title">
+                <span>Electron quick start</span>
+            </div>
             <div id="window-controls">
                 <div class="button" id="min-button">
                     <span>&#xE921;</span>
@@ -27,9 +30,11 @@
     </header>
     <div class="main">
         <h1>Hello World!</h1>
-        We are using node <script>document.write(process.versions.node)</script>,
-        Chrome <script>document.write(process.versions.chrome)</script>,
-        and Electron <script>document.write(process.versions.electron)</script>.
+        <ul>
+            <li>We are using node <span><script>document.write(process.versions.node)</script></span></li>
+            <li>Chrome <span><script>document.write(process.versions.chrome)</script></span></li>
+            <li>and Electron <span><script>document.write(process.versions.electron)</script></span></li>
+        </ul>
     </div>
   </body>
 </html>
