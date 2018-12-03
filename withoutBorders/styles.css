@@ -17,12 +17,15 @@ p:before,
 p:after {
   box-sizing: inherit;
 }
-html, body {height: 100%; margin: 0;}
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
 body {
   font-family: "Segoe UI", sans-serif;
   background: #1A2933; color: #FFF;
-  border: 1px solid #48545c;
+  //border: 1px solid #48545c;
   overflow-y: hidden;
 }
 h1 {
@@ -37,12 +40,12 @@ p {
 .titlebar {
   display: block;
   position: fixed;
-  height: 32px;
-  width: calc(100% - 2px); /*Compensate for body 1px border*/
+  height: 30px;
+  width: 100%;
+  top: 0;
 }
 .main {
-  height: calc(100% - 32px);
-  margin-top: 32px;
+  margin-top: 30px;
   padding: 20px;
   overflow-y: auto;
 }
