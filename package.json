@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/merowing/electron-apps/issues"
   },
-  "homepage": "https://github.com/merowing/electron-apps#readme"
+  "homepage": "https://github.com/merowing/electron-apps#readme",
+  "devDependencies": {
+    "electron": "^3.0.10"
+  }
 }
