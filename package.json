@@ -1,0 +1,23 @@
+{
+  "name": "wborders",
+  "version": "0.0.1",
+  "description": "Window without borders. Used Electron and pure JavaScript with HTML and CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merowing/electron-apps.git"
+  },
+  "keywords": [
+    "electron",
+    "javascript"
+  ],
+  "author": "Merowinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/merowing/electron-apps/issues"
+  },
+  "homepage": "https://github.com/merowing/electron-apps#readme"
+}
